@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: arial;
+}
+.main{
+    max-width:800px;
+    margin:80px auto;
+    padding:0px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="email"], 
+input[type="password"],
+input[type="date"]
+{
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #fff;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.pass{
+    font-size:8px;
+    margin-top:-12px;
+}
+input[type="radio"]{
+    margin-bottom: 20px;
+}
+.checkbox{
+    margin-bottom: 20px;
+}
+button{
+  background-color: #fff;
+  color: black;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;;
+    
+}
