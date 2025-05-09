@@ -1,11 +1,16 @@
 *{
     background-color: black;
     color:white;
-    font-family: arial;
+    font-family: arial ;
+    font-weight: 100;
 }
+body{
+   zoom: 150%;
+}
+
 .main{
     max-width:800px;
-    margin:80px auto;
+    margin:100px 200px;
     padding:0px;
 }
 form{
@@ -22,6 +27,9 @@ input[type="date"]
     border-bottom:1px solid #fff;
     padding:10px;
     margin-bottom: 20px;
+}
+::placeholder{
+    color:#ffff;
 }
 .pass{
     font-size:8px;
